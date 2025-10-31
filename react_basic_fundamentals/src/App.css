@@ -1,0 +1,74 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+.header {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 20px 0 20px 20px; /* add top padding so child margins don't collapse */
+  /* or use overflow:auto; instead of padding if you prefer */
+}
+
+.header h1,
+.header h2,
+.header p {
+  margin: 0; /* ensure no default top margin */
+}
+
+/* nav links */
+.header nav a {
+  margin: 0 15px;
+  color: white;
+}
+
+/* about section */
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #4e4343;
+}
+
+/* headings */
+.about-section h2, .projects-section h2, .contact-section h2 {
+  margin-bottom: 20px;
+}
+
+/* projects */
+.projects-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.project-list {
+  margin-bottom: 30px;
+}
+
+/* adjust selector to match your HTML class name */
+.project-list .project_item a {
+  color: blue;
+}
+
+/* contact & footer */
+.contact-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.footer {
+  background-color: #282c34;
+  padding: 20px;
+  color: wheat;
+  text-align: center;
+}
